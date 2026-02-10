@@ -1,0 +1,38 @@
+:root {
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-stroke: rgba(255, 255, 255, 0.1);
+}
+
+html,
+body {
+  background: #06070b;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: block !important;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100vh;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+* {
+  box-sizing: border-box;
+}
